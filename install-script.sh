@@ -10,13 +10,13 @@ then
 fi
 dnf list insatlled mysql
 
-if[ $? -ne 0 ]
+if [ $? -ne 0 ]
 then
     dnf install mysql -y
-    if[ $? -ne 0 ]
+    if [ $? -ne 0 ]
     then
     echo "Insatlling Mysql.....FAILURE"
-    exit1
+    exit 1
 else
     echo "Installing Mysql.......SUCCESS"
 fi
@@ -35,13 +35,13 @@ fi
 
 dnf list insatlled git
 
-if[ $? -ne 0 ]
+if [ $? -ne 0 ]
 then
     dnf install git -y
-    if[ $? -ne 0 ]
+    if [ $? -ne 0 ]
     then
     echo "Insatlling Git.....FAILURE"
-    exit1
+    exit 1
 else
     echo "Installing Git.......SUCCESS"
 fi
