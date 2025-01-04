@@ -6,6 +6,6 @@ read -s USERNAME
 
 echo "username entered $USERNAME"
 
-echo "Please Entered Your Password"
+echo "Please Entered Your Password::"
 
 read -s PASSWORD
