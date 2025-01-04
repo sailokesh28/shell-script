@@ -10,6 +10,22 @@ then
 fi
 
 dnf install mysql -y
+if [$? -ne 0 ]
+then 
+    echo "Installing MySql........Failure"
+    exit1
+else
+    echo "Installing MySql ........Sucsess"
+fi
 
 dnf install git -y
+
+if [$? -ne 0 ]
+then 
+    echo "Installing Git........Failure"
+    exit1
+else
+    echo "Installing Git ........Sucsess"
+fi
+
 
