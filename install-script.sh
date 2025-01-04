@@ -8,6 +8,8 @@ then
   echo "Error: You Must Have Sudo Access to Execute This Script"
     exit 1
 fi
+
+#Whether it is  insatlled mysql or not 
 dnf list insatlled mysql
 
 if [ $? -ne 0 ]
