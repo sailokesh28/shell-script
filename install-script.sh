@@ -23,7 +23,7 @@ else
     echo "Installing Mysql.......SUCCESS"
 fi
 else
-    echo "Mysql is Already.....Insatlled"
+    echo "Mysql is Already.....Installed"
 fi
 
 # dnf install mysql -y
