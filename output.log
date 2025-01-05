@@ -1,0 +1,18 @@
+bash: ldbkbc: command not found
+bash: ldbkbc: command not found
+total 23
+-rwxr-xr-x 1 sailo 197121  183 Jan  4 23:23 arrays.sh*
+-rwxr-xr-x 1 sailo 197121  701 Jan  5 10:29 colors.sh*
+-rwxr-xr-x 1 sailo 197121  181 Jan  4 23:49 conditions.sh*
+-rwxr-xr-x 1 sailo 197121  165 Jan  4 23:17 data-types.sh*
+-rwxr-xr-x 1 sailo 197121   64 Jan  4 19:21 day1.sh*
+-rwxr-xr-x 1 sailo 197121   35 Jan  4 19:18 day2.sh*
+-rwxr-xr-x 1 sailo 197121  644 Jan  5 10:15 functions.sh*
+-rwxr-xr-x 1 sailo 197121 1001 Jan  5 01:02 install-script.sh*
+-rw-r--r-- 1 sailo 197121   37 Jan  5 10:39 log.log
+-rw-r--r-- 1 sailo 197121   64 Jan  5 10:45 output.log
+-rwxr-xr-x 1 sailo 197121  331 Jan  4 23:37 special-variables.sh*
+-rw-r--r-- 1 sailo 197121    0 Jan  4 19:24 variables
+-rwxr-xr-x 1 sailo 197121  178 Jan  4 20:38 variables.sh*
+-rwxr-xr-x 1 sailo 197121  171 Jan  4 20:44 variables2.sh*
+-rwxr-xr-x 1 sailo 197121  159 Jan  4 21:04 variables3.sh*
