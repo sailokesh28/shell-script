@@ -3,15 +3,12 @@
 USERID=$(id -u)
 
 VALIDATE(){
-if [ $? -ne 0 ]
-then
-    dnf install mysql -y
     if [ $? -ne 0 ]
     then
-    echo "$2.......FAILURE"
-    exit 1
+        echo "$2.......FAILURE"
+        exit 1
     else
-    echo "$?.......SUCCESS"
+         echo "$?.......SUCCESS"
     fi
 }
 
