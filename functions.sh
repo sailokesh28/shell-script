@@ -10,10 +10,9 @@ then
     then
     echo "$2.......FAILURE"
     exit 1
-else
+    else
     echo "$?.......SUCCESS"
-fi
-
+    fi
 }
 
 if [ $USERID -ne 0 ]
